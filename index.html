@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Single Page Application</title>
+    <script src="js/page.js"></script>
+    <script src="js/webcomponents.js"></script>
+    <link rel="import" href="components/sidebar.html" />
+    <base href="/">
+
+    <!-- Bootstrap -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+      /*! grunt-grunticon Stylesheet Loader - v2.1.6 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
+!function(){function e(e,n,t){"use strict";var o=window.document.createElement("link"),r=n||window.document.getElementsByTagName("script")[0],a=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",r.parentNode.insertBefore(o,r),o.onloadcssdefined=function(e){for(var n,t=0;t<a.length;t++)a[t].href&&a[t].href===o.href&&(n=!0);n?e():setTimeout(function(){o.onloadcssdefined(e)})},o.onloadcssdefined(function(){o.media=t||"all"}),o}function n(e,n){e.onload=function(){e.onload=null,n&&n.call(e)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(t){var o=function(r,a){"use strict";if(r&&3===r.length){var i=t.navigator,c=t.document,s=t.Image,d=!(!c.createElementNS||!c.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!c.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&-1===i.userAgent.indexOf("Chrome")||-1!==i.userAgent.indexOf("Series40")),l=new s;l.onerror=function(){o.method="png",o.href=r[2],e(r[2])},l.onload=function(){var t=1===l.width&&1===l.height,i=r[t&&d?0:t?1:2];t&&d?o.method="svg":t?o.method="datapng":o.method="png",o.href=i,n(e(i),a)},l.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",c.documentElement.className+=" grunticon"}};o.loadCSS=e,o.onloadCSS=n,t.grunticon=o}(this),function(e,n){"use strict";var t=n.document,o="grunticon:",r=function(e){if(t.attachEvent?"complete"===t.readyState:"loading"!==t.readyState)e();else{var n=!1;t.addEventListener("readystatechange",function(){n||(n=!0,e())},!1)}},a=function(e){return n.document.querySelector('link[href$="'+e+'"]')},i=function(e){var n,t,r,a,i,c,s={};if(n=e.sheet,!n)return s;t=n.cssRules?n.cssRules:n.rules;for(var d=0;d<t.length;d++)r=t[d].cssText,a=o+t[d].selectorText,i=r.split(");")[0].match(/US\-ASCII\,([^"']+)/),i&&i[1]&&(c=decodeURIComponent(i[1]),s[a]=c);return s},c=function(e){var n,r,a,i;a="data-grunticon-embed";for(var c in e){i=c.slice(o.length);try{n=t.querySelectorAll(i)}catch(s){continue}r=[];for(var d=0;d<n.length;d++)null!==n[d].getAttribute(a)&&r.push(n[d]);if(r.length)for(d=0;d<r.length;d++)r[d].innerHTML=e[c],r[d].style.backgroundImage="none",r[d].removeAttribute(a)}return r},s=function(n){"svg"===e.method&&r(function(){c(i(a(e.href))),"function"==typeof n&&n()})};e.embedIcons=c,e.getCSS=a,e.getIcons=i,e.ready=r,e.svgLoadedCallback=s,e.embedSVG=s}(grunticon,this)}();
+      
+      grunticon(["css/icons.data.svg.css", "css/icons.data.png.css", "css/icons.fallback.css"], grunticon.svgLoadedCallback);
+    </script>
+
+    <script type="text/javascript">
+        var $html=document.documentElement;if($html.classList)$html.classList.remove("no-js"),$html.classList.add("js");else{var className="no-js";$html.className=$html.className.replace(new RegExp("(^|\\b)"+className.split(" ").join("|")+"(\\b|$)","gi")," "),$html.className+=" js"}
+    </script>
+    <noscript><link href="css/symbols.fallback.css" rel="stylesheet"></noscript>
+    <link href="css/app.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="appContainer" class="page-container">
+      
+      <side-bar></side-bar>
+
+      <div id="homeBody" class="body-container">
+          <header>
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <a href="#!/sidebar" class="side-menu icon icon-size-sm icon-hamburger-menu-white">Menu</a>
+                  <h1>Home</h1>
+                </div>
+              </div>
+            </div>      
+          </header>
+
+          <div class="content-container container">
+            <!-- <say-hi name="Jason"></say-hi> -->
+            <div id="listHolder" class="row plain-list">
+
+              <!--Dynamic conetnt goes here-->
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/plugins/greensock/TimelineMax.js"></script>
+    <script src="js/plugins/greensock/TweenMax.js"></script>
+    
+    <script>
+
+    $(function() {
+
+      var screenWidth = $(window).width();
+      var screenHeight = $(window).height();
+
+      page.base('/#!');
+      page('/', index);
+      page('/sidebar', sidebar);
+      page('/articles/:pageName', loadArticle);
+      page('/page/:pageName', loadPage);
+      page();
+      // page({
+      //   hashbang: true
+      // });
+
+      function index() {
+        closeSidebar();
+        console.log('index');
+        animatePartialOut();
+      }
+
+      function sidebar() {
+        // document.querySelector('h1').textContent = 'Sidebar';
+        openSidebar();
+      }
+
+      function animatePartialOut() {
+        var $partial = $('.partial');
+        var exitPoint = null;
+        var slideFromVars, slideToVars = null;
+        console.log($partial)
+        if ($partial.length > 0)
+        {
+          exitPoint = $partial.attr('data-exit-point');
+          console.log('exitPoint: ' + exitPoint)
+          $partial.find('header').css({
+            position: 'absolute'
+          });
+
+          if (exitPoint === 'stage-bottom') 
+          {
+            slideFromVars = {
+              left: '0px',       
+              top: '0px'
+            }          
+            slideToVars = {   
+              top: screenHeight + 'px',
+              ease:Power2.easeInOut,
+              onComplete: function() {
+                setTimeout(function() {$partial.remove()},500);
+              }
+            }
+          }
+          else if (exitPoint === 'stage-top')
+          {
+            slideFromVars = {
+              left: '0px',
+              top: '0px'
+            }            
+            slideToVars = {          
+              top: '-' + screenHeight + 'px',
+              ease:Power2.easeInOut,
+              onComplete: function() {
+                setTimeout(function() {$partial.remove()},500);
+              }
+            }
+          }
+
+          else if (exitPoint === 'stage-right')
+          {
+            slideFromVars = {
+              left: '0px',
+              top: '0px'
+            }            
+            slideToVars = {          
+              left: screenWidth + 'px',
+              ease:Power2.easeInOut,
+              onComplete: function() {
+                setTimeout(function() {$partial.remove()},500);
+              }
+            }
+          }    
+          else
+          {
+            slideFromVars = {
+              left: '0px'
+            }
+
+            slideToVars = {          
+              left: '-' + screenWidth + 'px',
+              ease:Power2.easeInOut,
+              onComplete: function() {
+                setTimeout(function() {$partial.remove()},500);
+              }
+            }
+          }         
+          TweenMax.fromTo($partial, 0.25, slideFromVars, slideToVars);
+        }
+      }
+
+      function animatePartialIn() {
+        var $partial = $('#appContainer').find('.body-container.partial');
+        var entryPoint = $partial.attr('data-entry-point');
+
+        if (entryPoint === 'stage-bottom')
+        {
+          slideFromVars = {
+            left: '0px',
+            top: screenHeight + 'px'
+          }            
+          slideToVars = {          
+            top: '0px',
+            ease:Power2.easeInOut,
+            onComplete: function() {
+              $partial.find('header').css({
+                position: 'fixed'
+              });
+            }
+          }
+        }
+        else if (entryPoint === 'stage-top')
+        {
+          $partial.css({bottom: 'auto'})
+          slideFromVars = {
+            left: '0px',
+            top: '-' + screenHeight + 'px'
+          }            
+          slideToVars = {          
+            top: '0px',
+            ease:Power2.easeInOut,
+            onComplete: function() {
+              $partial.find('header').css({
+                position: 'fixed',
+                bottom: 0
+              });
+            }
+          }
+        }
+        else if (entryPoint === 'stage-right')
+        {
+          $partial.css({bottom: 'auto'})
+          slideFromVars = {
+            left: screenWidth + 'px',
+            top: '0px'
+          }            
+          slideToVars = {          
+            left: '0px',
+            ease:Power2.easeInOut,
+            onComplete: function() {
+              $partial.find('header').css({
+                position: 'fixed'
+              });
+            }
+          }
+        }
+        else
+        {
+          slideFromVars = {
+            top: '0px',
+            left: '-' + screenWidth + 'px'
+          }
+          slideToVars = {          
+            left: '0px',
+            ease:Power2.easeInOut,
+            onComplete: function() {
+              $partial.find('header').css({
+                position: 'fixed'
+              });
+            }
+          }
+        }
+        // animate page in
+        TweenMax.fromTo($partial, 0.25, slideFromVars, slideToVars);
+      }
+
+      function loadPage(ctx) {
+        closeSidebar();
+        var targetPage = ctx.params.pageName;
+      }
+
+      function loadArticle(ctx) {
+
+        var url = ctx.path + '.html';
+        var slideFromVars, slideToVars = null;       
+
+        $.ajax({
+          url: url,
+          success: function (data) { 
+            $('#appContainer').append(data);
+            animatePartialIn();
+          },
+          dataType: 'html'
+        });
+      }
+
+      function closeSidebar() {
+        if ($('body').hasClass('has-openSideBar'))
+        {
+          $('body').removeClass('has-openSideBar');
+        }
+      }
+
+      function openSidebar() {
+        if (!$('body').hasClass('has-openSideBar'))
+        {
+          $('body').addClass('has-openSideBar');
+        }
+      }
+
+      $('.shim').on('click', function() {
+        // Setting the page to '/' will 
+        page('/');
+        // $('body').toggleClass('has-openSideBar');
+      });
+      
+
+      // data retrieval and card generation      
+      var cardData = null;
+
+      getJSONData('data/articles.json').then(function(data){
+        cardData = data;
+        // imitateDataSave(data);
+        // console.log('init called because we fetched the new data!!')
+        init();
+      }).catch(function(data) {
+        // console.log(data + ' is an invalid url');
+      });
+
+
+      function getJSONData(url) {
+        return new Promise(function(resolve, reject) {
+          var data = $.getJSON(url);
+          data.done(function() {
+            resolve(data);
+          });
+          data.fail(function() {
+            reject(url);
+          });
+        });
+      }
+
+
+      // GRID OPTIONS
+      var rowSize   = 90;
+      var colSize   = 200;
+      var gutter    = 0;     // Spacing between tiles
+      var numTiles  = 5;    // Number of tiles to initially populate the grid with
+      var fixedSize = false; // When true, each tile's colspan will be fixed to 1
+      var oneColumn = true; // When true, grid will only have 1 column and tiles have fixed colspan of 1
+      var threshold = "50%"; // This is amount of overlap between tiles needed to detect a collision
+
+      var $list = $("#listHolder");
+
+      // Live node list of tiles
+      var tiles  = $list[0].getElementsByClassName("card");
+      var label  = 1;
+      var zIndex = 1;
+
+      var startWidth  = "100%";
+      var startSize   = colSize;
+      var singleWidth = colSize * 3;
+
+      var colCount   = null;
+      var rowCount   = null;
+      var gutterStep = null;
+
+
+      $(window).resize(resize);
+
+      // ========================================================================
+      //  INIT
+      // ========================================================================
+      function init() {
+        var width = startWidth;
+        // This value is defined when this function 
+        // is fired by a radio button change event
+        switch (this.value) {
+          case "mixed":
+            fixedSize = false;
+            oneColumn = false;
+            colSize   = startSize;
+            break;
+          case "fixed":
+            fixedSize = true;
+            oneColumn = false;
+            colSize   = startSize;
+            break;
+          case "column":
+            fixedSize = false;
+            oneColumn = true;
+            width     = singleWidth;
+            colSize   = singleWidth;
+            break;
+        }
+
+        // TweenLite.to($list, 0.2, { width: width});
+        TweenLite.to($list, 0.2);
+        TweenLite.delayedCall(0.25, populateBoard);
+
+        function populateBoard() {
+          // label = 1;
+          resize();
+
+          for (var i = 0; i < cardData.length; i++) {
+            createTile(cardData[i]);
+          }
+        }
+      }
+
+      function imitateDataSave(data) {
+        localStorage.setItem('articles',JSON.stringify(data));
+      }
+
+      // ========================================================================
+      //  RESIZE
+      // ========================================================================
+      function resize() {
+        colCount   = oneColumn ? 1 : Math.floor($list.outerWidth() / (colSize + gutter));
+        gutterStep = colCount == 1 ? gutter : (gutter * (colCount - 1) / colCount);
+        rowCount   = 0;
+        layoutInvalidated();
+
+        screenHeight = $(window).height();
+        screenWidth = $(window).width();
+
+        if ($('#loaderHolder').length > 0) {
+          var holderHeight = screenHeight - 140;
+          $('#loaderHolder').css({'height': holderHeight});
+        }
+      }
+
+      // ========================================================================
+      //  CREATE TILE
+      // ========================================================================
+      function createTile(data) {
+
+        var cardHTML = '';
+        cardHTML += '<h3>'+data.title+'</h3>';
+        cardHTML += '<p>'+data.intro+'</p>';
+          
+          var colspan = fixedSize || oneColumn ? 1 : Math.floor(Math.random() * 2) + 1;
+          // console.log('colspan: ' + colspan);
+          var element = $('<a></a>').attr('href','#!/articles/'+data.file).addClass("card col-xs-12 article trigger-from-left").html(cardHTML).attr('data-id',data.id).attr('data-file',data.file);        
+          
+          // NOTE: Leave rowspan set to 1 because this demo 
+          // doesn't calculate different row heights
+          var card = {
+            col        : null,
+            colspan    : colspan,
+            height     : 0,
+            inBounds   : true,
+            index      : null,
+            isDragging : false,
+            lastIndex  : null,
+            newTile    : true,
+            positioned : false,
+            row        : 0,
+            rowspan    : 1, 
+            width      : 0,
+            x          : 0,
+            y          : 0,
+            tileWidth: '100%'
+          };
+
+          // Add tile properties to our element for quick lookup
+          element[0].card = card;
+
+          $list.append(element);
+          layoutInvalidated();      
+      }
+
+      // ========================================================================
+      //  LAYOUT INVALIDATED
+      // ========================================================================
+      function layoutInvalidated(rowToUpdate) {
+
+        var timeline = new TimelineMax();
+        var partialLayout = (rowToUpdate > -1);
+
+        var height = 0;
+        var col    = 0;
+        var row    = 0;
+        var time   = 0.35;
+
+        $(".card").each(function(index, element) {
+
+          if (this.tile !== undefined)
+          {
+
+            var tile    = this.tile;
+            var oldRow  = tile.row;
+            var oldCol  = tile.col;
+            var newTile = tile.newTile;
+
+            // PARTIAL LAYOUT: This condition can only occur while a tile is being 
+            // dragged. The purpose of this is to only swap positions within a row, 
+            // which will prevent a tile from jumping to another row if a space
+            // is available. Without this, a large tile in column 0 may appear 
+            // to be stuck if hit by a smaller tile, and if there is space in the 
+            // row above for the smaller tile. When the user stops dragging the 
+            // tile, a full layout update will happen, allowing tiles to move to
+            // available spaces in rows above them.
+            if (partialLayout) {
+              row = tile.row;
+              if (tile.row !== rowToUpdate) return;
+            }
+
+            // Update trackers when colCount is exceeded 
+            if (col + tile.colspan > colCount) {
+              col = 0; row++;
+            }
+
+            $.extend(tile, {
+              col    : col,
+              row    : row,
+              index  : index,
+              x      : col * gutterStep + (col * colSize),
+              y      : row * gutterStep + (row * rowSize),
+              width  : '100%',
+              height : tile.rowspan * rowSize
+            });
+
+            col += tile.colspan;
+
+            // If the tile being dragged is in bounds, set a new
+            // last index in case it goes out of bounds
+            if (tile.isDragging && tile.inBounds) {
+                tile.lastIndex = index;
+            }
+
+            if (newTile) {
+
+              // Clear the new tile flag
+              tile.newTile = false;
+
+              var from = {
+                  autoAlpha : 0,
+                  boxShadow : 0,
+                  height    : tile.height,
+                  scale     : 0,
+                  width     : tile.width
+              };
+
+              var to = {
+                  autoAlpha : 1,
+                  scale     : 1,
+                  zIndex    : zIndex
+              }
+
+              timeline.fromTo(element, time, from, to, "reflow");
+            }
+
+            // Don't animate the tile that is being dragged and
+            // only animate the tiles that have changes
+            if (!tile.isDragging && (oldRow !== tile.row || oldCol !== tile.col)) {
+
+              var duration = newTile ? 0 : time;
+
+              // Boost the z-index for tiles that will travel over 
+              // another tile due to a row change
+              if (oldRow !== tile.row) {
+                  timeline.set(element, { zIndex: ++zIndex }, "reflow");
+              }
+
+              timeline.to(element, duration, {
+                x : tile.x,
+                y : tile.y,
+                onComplete : function() { tile.positioned = true; },
+                onStart    : function() { tile.positioned = false; }
+              }, "reflow");
+            }
+          }
+        });
+
+        if (!row) rowCount = 1;
+
+        // If the row count has changed, change the height of the container
+        if (row !== rowCount) {
+          rowCount = row;
+          // console.log('rowCount: '+rowCount);
+          // console.log('gutterStep: '+gutterStep);
+          // console.log('row: '+row);
+          // console.log('rowSize: '+rowSize);
+          height   = rowCount * gutterStep + (++row * rowSize);
+          // timeline.to($list, 0.2, {  }, "reflow");
+          timeline.to($list, 0.2, {  }, "reflow");
+        }
+      }
+      
+      
+    });
+    </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!--script src="js/bootstrap.min.js"></script-->
+  </body>
+</html>

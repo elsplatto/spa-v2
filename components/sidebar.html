@@ -1,0 +1,49 @@
+
+
+<template id="sideBar">
+  <aside class="sidebar">
+    <div class="container logo-container">
+      <div class="row">
+        <div class="col-xs-12">
+          <a href="/" class="icon icon-tandt-logo"></a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">          
+          <ul>
+            <li><a href="page/test-1.html">test 1</a></li>
+            <li><a href="page/test-2.html">test 2</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="shim">
+
+  </div>
+</template>
+
+<script>
+  
+  var importDoc = document._currentScript.ownerDocument;
+  var proto2 = Object.create(HTMLElement.prototype);
+
+  proto2.createdCallback = function() {
+    // get template in import
+    var template = importDoc.querySelector('#sideBar');
+
+    console.dir(template)
+
+    // import template into
+    var clone = document.importNode(template.content, true);
+
+    // var root = this.createShadowRoot();
+    // root.appendChild(clone);
+    // console.log(this)
+    this.appendChild(clone);
+  };
+
+  document.registerElement('side-bar', {prototype: proto2});
+</script>

@@ -1,0 +1,841 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"screen",
+				"screenWidth"
+			],
+			[
+				"joint",
+				"jointAccountAlert"
+			],
+			[
+				"trasaction",
+				"transactionHTML"
+			],
+			[
+				"clone",
+				"clonedEl"
+			],
+			[
+				"clon",
+				"clonedEl"
+			],
+			[
+				"list",
+				"list-holder"
+			],
+			[
+				"error",
+				"errorMsgHolder"
+			],
+			[
+				"singl",
+				"single-button"
+			],
+			[
+				"stad",
+				"standardCheckedCount"
+			],
+			[
+				"otherOwner",
+				"otherOwnerCount"
+			],
+			[
+				"otherOwnerCons",
+				"otherOwnerConsentCount"
+			],
+			[
+				"input",
+				"input-group"
+			],
+			[
+				"earlie",
+				"earliestStatementDate"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"data",
+				"data-grunticon-embed"
+			],
+			[
+				"uni",
+				"unixDateConverter"
+			],
+			[
+				"statem",
+				"statements"
+			],
+			[
+				"join",
+				"jointAccountAlert"
+			],
+			[
+				"prevent",
+				"preventDefault"
+			],
+			[
+				"eStateme",
+				"eStatementsHTML"
+			],
+			[
+				"selec",
+				"selectAll"
+			],
+			[
+				"stand",
+				"standardCheckedCount"
+			],
+			[
+				"account-name",
+				"account-name-input"
+			],
+			[
+				"loca",
+				"localStorage"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"startDate",
+				"startDateObj"
+			],
+			[
+				"firs",
+				"firstValidDate"
+			],
+			[
+				"cl",
+				"clndr1"
+			],
+			[
+				"sc",
+				"scheduledPayments"
+			],
+			[
+				"select",
+				"select-start"
+			],
+			[
+				"remove",
+				"removeAttribute"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"gray",
+				"gray-lighter"
+			],
+			[
+				"checkbox",
+				"checkbox-text"
+			],
+			[
+				"fre",
+				"frequencyLabel"
+			],
+			[
+				"btn",
+				"btn-group"
+			],
+			[
+				"webkit",
+				"webkit-appearance"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"bin",
+				"bindElement"
+			],
+			[
+				"auto",
+				"auto-suggest"
+			],
+			[
+				"entry",
+				"entryAnimatoin"
+			],
+			[
+				"boards",
+				"boardsRef"
+			],
+			[
+				"assoc",
+				"archiveAssociates"
+			],
+			[
+				"postings",
+				"postingsApp"
+			],
+			[
+				"leg",
+				"length"
+			],
+			[
+				"projectHolder",
+				"projectHolderArray"
+			],
+			[
+				"sele",
+				"selectedListItems"
+			],
+			[
+				"organis",
+				"organisationList"
+			],
+			[
+				"compute",
+				"computeFullName"
+			],
+			[
+				"account",
+				"accountMenu"
+			],
+			[
+				"organ",
+				"organisationList"
+			],
+			[
+				"addProe",
+				"addProjectModule"
+			],
+			[
+				"neon",
+				"neon-animated-pages"
+			],
+			[
+				"iron",
+				"iron-pages"
+			],
+			[
+				"org",
+				"orgObj"
+			],
+			[
+				"organi",
+				"organisationList"
+			],
+			[
+				"succes",
+				"successHandler"
+			],
+			[
+				"title",
+				"title-holder"
+			],
+			[
+				"hadle",
+				"handleSuccessfulTransaction"
+			],
+			[
+				"erro",
+				"errorMsg"
+			],
+			[
+				"topeka",
+				"topeka-datasource"
+			],
+			[
+				"user",
+				"userChanged"
+			],
+			[
+				"observ",
+				"observeUser"
+			],
+			[
+				"bod",
+				"bodyParser"
+			],
+			[
+				"login",
+				"loginAjax"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 7480,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/app.less",
+			"settings":
+			{
+				"buffer_size": 1770,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jasontaikato/Sites/spa-v2/js/plugins/jquery.router.js",
+		"/Users/jasontaikato/Sites/spa-v2/js/jquery.min.js",
+		"/Users/jasontaikato/Sites/stg-5/data/accounts.json",
+		"/Users/jasontaikato/Sites/stg-5/assets/css/symbols.data.svg.css",
+		"/Users/jasontaikato/Sites/stg-5/statements-bsa.html",
+		"/Users/jasontaikato/Sites/stg-5/statements-bom.html",
+		"/Users/jasontaikato/Sites/stg-5/source/less/gui-bom.less",
+		"/Users/jasontaikato/Sites/stg-5/source/less/gui-bsa.less",
+		"/Users/jasontaikato/Sites/stg-5/source/less/gui.less",
+		"/Users/jasontaikato/Sites/stg-5/closed.html",
+		"/Users/jasontaikato/Sites/stg-5/statements.html",
+		"/Users/jasontaikato/Sites/stg-5/index-concept-1.html",
+		"/Users/jasontaikato/Sites/stg-5/statements-bak-2.html",
+		"/Users/jasontaikato/Sites/stg-5/partials/transaction-list.html",
+		"/Users/jasontaikato/Sites/stg-5/data/features.json",
+		"/Users/jasontaikato/Sites/stg-5/activate-card.html",
+		"/Users/jasontaikato/Sites/stg-5/drag-v1.html",
+		"/Users/jasontaikato/Sites/stg-5/drag.html",
+		"/Users/jasontaikato/Sites/stg-5/index.html",
+		"/Users/jasontaikato/Sites/stg-5/closed-account.html",
+		"/Users/jasontaikato/Sites/stg-5/no-email.html",
+		"/Users/jasontaikato/Sites/stg-5/nope.html",
+		"/Users/jasontaikato/Sites/stg-5/statements-bak-5.html",
+		"/Users/jasontaikato/Sites/stg-5/statements-bak-6.html",
+		"/Users/jasontaikato/Sites/stg-5/statements-bak-7.html",
+		"/Users/jasontaikato/Sites/stg-5/statements-bak-8.html",
+		"/Users/jasontaikato/Sites/stg-5/statements-bak-9.html",
+		"/Users/jasontaikato/Sites/stg-5/statements-bak.html",
+		"/Users/jasontaikato/Sites/stg-5/statements-standard-only.html",
+		"/Users/jasontaikato/Sites/stg-5/statements-tabbed.html",
+		"/Users/jasontaikato/Sites/stg-5/statements-bak-4.html",
+		"/Users/jasontaikato/Sites/stg-5/statements-bak-3.html",
+		"/Users/jasontaikato/Sites/stg-5/confirm.html",
+		"/Users/jasontaikato/Sites/stg-5/source/js/typeahead.js",
+		"/Users/jasontaikato/Sites/stg-5/source/js/typeahead.js ",
+		"/Users/jasontaikato/Sites/stg-5/list.html",
+		"/Users/jasontaikato/Sites/stg-5/index-bak-1.html",
+		"/Users/jasontaikato/Sites/stg-5/closed-account-months.html",
+		"/Users/jasontaikato/Sites/stg-5/source/less/_colors.less",
+		"/Users/jasontaikato/Sites/stg-5/source/less/alerts.less",
+		"/Users/jasontaikato/Sites/stg-5/confirm-bak-2.html",
+		"/Users/jasontaikato/Sites/stg-5/confirm-bak.html",
+		"/Users/jasontaikato/Sites/stg-5/closed-account-bak.html",
+		"/Users/jasontaikato/Sites/stg-5/source/js/global-functions.js",
+		"/Users/jasontaikato/Sites/stg-5/source/js/clndr.js",
+		"/Users/jasontaikato/Sites/stg-5/source/js/moment-with-locale.js",
+		"/Users/jasontaikato/Sites/stg-5/source/less/gui-bak.less",
+		"/Users/jasontaikato/Sites/stg-5/data/closed-accounts.json",
+		"/Users/jasontaikato/Sites/stg-5/source/js/moment.js",
+		"/Users/jasontaikato/Sites/stg-4/drag-bak-3.html",
+		"/Users/jasontaikato/Sites/stg-4/drag-bak-2.html",
+		"/Users/jasontaikato/Sites/stg-4/drag-bak.html",
+		"/Users/jasontaikato/Sites/stg-4/index.html",
+		"/Users/jasontaikato/Sites/stg-4/assets/css/symbols.data.svg.css",
+		"/Users/jasontaikato/Sites/stg-4/drag.html",
+		"/Users/jasontaikato/Sites/stg-4/switch.html",
+		"/Users/jasontaikato/Sites/stg-4/index-bak.html",
+		"/Users/jasontaikato/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jasontaikato/Sites/stg-4/source/js/greensock/utils/Draggable.min.js",
+		"/Users/jasontaikato/Sites/stg-4/source/js/jquery-ui.min.js",
+		"/Users/jasontaikato/Sites/stg-4/source/js/jquery.min.2.1.3.js",
+		"/Users/jasontaikato/Sites/stg-4/source/js/hammer-sortables.js",
+		"/Users/jasontaikato/Sites/stg-4/source/js/inherits.js",
+		"/Users/jasontaikato/Sites/stg-4/source/js/hammer-draggables.js",
+		"/Users/jasontaikato/Sites/stg-4/source/js/hammer.min.js",
+		"/Users/jasontaikato/Downloads/Swipe-Helper.svg",
+		"/Users/jasontaikato/Sites/stg-3/index-2.html",
+		"/Users/jasontaikato/Sites/stg-3/source/js/calendar-2.js",
+		"/Users/jasontaikato/Sites/stg-3/source/js/object-observe-lite.js",
+		"/Users/jasontaikato/Sites/stg-3/source/js/jquery.my.js",
+		"/Users/jasontaikato/Sites/stg-3/source/js/vue.js",
+		"/Users/jasontaikato/Sites/stg-3/source/js/underscore.min.js",
+		"/Users/jasontaikato/Sites/stg-3/source/less/_colors.less",
+		"/Users/jasontaikato/Sites/stg-3/source/js/clndr.js",
+		"/Users/jasontaikato/Sites/stg-3/source/less/gui.less",
+		"/Users/jasontaikato/Sites/stg-3/index.html",
+		"/Users/jasontaikato/Sites/stg-3/source/js/calendar.js",
+		"/Users/jasontaikato/Sites/stg-3/assets/css/symbols.data.svg.css",
+		"/Users/jasontaikato/Sites/stg-3/source/js/underscore-min.js",
+		"/Users/jasontaikato/Sites/stg-3/source/js/moment.min.js",
+		"/Users/jasontaikato/Sites/stg-3/source/partials/calendar.html",
+		"/Users/jasontaikato/Sites/stg-2/_CORE/_less/site.less",
+		"/Users/jasontaikato/Sites/stg-2/_CORE/_HTML/index.html",
+		"/Users/jasontaikato/Sites/stg-2/_STG/_less/colors.less",
+		"/Users/jasontaikato/Sites/stg-2/_CORE/_HTMLincludes/defaults/theme-foot.html",
+		"/Users/jasontaikato/Sites/stg-2/_CORE/_less/base/mixins.less",
+		"/Users/jasontaikato/Sites/stg-2/_CORE/_js/010.app.js",
+		"/Users/jasontaikato/Sites/stg-2/package.json",
+		"/Users/jasontaikato/Sites/stg-2/PROD/STG/index.html",
+		"/Users/jasontaikato/Sites/stg-1/index.html",
+		"/Users/jasontaikato/Sites/stg-1/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss",
+		"/Users/jasontaikato/Sites/stg-1/css/app.css",
+		"/Users/jasontaikato/Sites/stg-1/css/app.scss",
+		"/Users/jasontaikato/Sites/stg-1/bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss",
+		"/Users/jasontaikato/Sites/stg-1/bower_components/bootstrap-sass/assets/stylesheets/app.scss",
+		"/Users/jasontaikato/Sites/stg-1/package.json",
+		"/Users/jasontaikato/Sites/stg-1/Gruntfile.js",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/routing.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/bower_components/paper-header-panel/paper-header-panel.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/bower_components/paper-header-panel/demo/index.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/postings-app/postings-app.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/postings-login/postings-login.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/postings-orgs/postings-orgs.html",
+		"/Users/jasontaikato/Sites/postings-v3/.gitignore",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/postings-users/postings-add-user.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/auto-suggest/auto-suggest.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/postings-users/postings-users.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/elements.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/postings-projects/postings-projects.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/auto-suggest/auto-suggest-bak.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/postings-users/psuedo-code.txt",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/postings-users/postings-add-user-bak.html",
+		"/Users/jasontaikato/Sites/postings-v3/postings-v3.sublime-workspace",
+		"/Users/jasontaikato/Sites/postings-v2/public/elements/user-list/user-list.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/javascripts/app.js",
+		"/Users/jasontaikato/Sites/postings-v3/public/stylesheets/style.css",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/postings-projects/postings-add-project.html",
+		"/Users/jasontaikato/Sites/postings-v3/views/index.hjs",
+		"/Users/jasontaikato/Sites/postings-v3/routes/login.js",
+		"/Users/jasontaikato/Sites/postings-v3/public/bower_components/iron-a11y-keys/demo/x-key-aware.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/postings-boards/postings-add-board.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/postings-boards/postings-boards.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/elements/app-theme.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/bower_components/neon-animation/demo/declarative/index.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/bower_components/web-animations-js/web-animations.min.js",
+		"/Users/jasontaikato/Sites/postings-v3/public/bower_components/paper-dialog/demo/index.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/bower_components/paper-styles/color.html",
+		"/Users/jasontaikato/Sites/postings-v3/public/bower_components/paper-styles/default-theme.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/jasontaikato/Sites/stg-5",
+			"/Users/jasontaikato/Sites/stg-4/source/js/greensock",
+			"/Users/jasontaikato/Sites/stg-3",
+			"/Users/jasontaikato/Sites/stg-2",
+			"/Users/jasontaikato/Sites/stg-1/bower_components/bootstrap-sass/assets/stylesheets/bootstrap",
+			"/Users/jasontaikato/Sites/stg-1/bower_components/boostrap-sass",
+			"/Users/jasontaikato/Sites/postings-v3/public/elements",
+			"/Users/jasontaikato/Sites/postings-v3",
+			"/Users/jasontaikato/Sites/postings-v3/public/elements",
+			"/Users/jasontaikato/Sites/postings-v3/public/",
+			"/Users/jasontaikato/Sites/postings-v3/",
+			"/Users/jasontaikato/Sites/postings-v3/public/",
+			"/Users/jasontaikato/Sites/postings-v3/public/bower_components",
+			"/Users/jasontaikato/Sites/postings-v3/public/",
+			"/Users/jasontaikato/Sites/postings-v3/public/demo",
+			"/Users/jasontaikato/Sites/postings-v3/public/elements",
+			"/Users/jasontaikato/Sites/postings-v3/public/demo",
+			"/Users/jasontaikato/Sites/postings-v3/public",
+			"/Users/jasontaikato/Sites/postings-v3/",
+			"/Users/jasontaikato/Sites/postings-v3/*.html",
+			"/Users/jasontaikato/Sites/postings-v3/",
+			"/Users/jasontaikato/Sites/postings-v3/public/bower_components/neon-animation/demo",
+			"/Users/jasontaikato/Sites/postings-v3/bower_components/neon-animation/demo",
+			"/Users/jasontaikato/Sites/postings-v3/",
+			"/Users/jasontaikato/Sites/postings-v3/public/",
+			"/Users/jasontaikato/Sites/postings-v3/public/elements",
+			"/Users/jasontaikato/Sites/postings-v3/public/bower_components/neon-animation",
+			"/Users/jasontaikato/Sites/postings-v3/public",
+			"/Users/jasontaikato/Sites/postings-v2",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka-elements",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka-elements",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka-elements",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka-elements",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka-elements",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka-elements",
+			"/Users/jasontaikato/Sites/postings-v2/node_modules/firebase",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka-elements",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka-elements",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka-elements",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka",
+			"/Users/jasontaikato/Sites/postings-v2/public/bower_components/topeka-elements",
+			"/Users/jasontaikato/Sites/postings/node_modules"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"service",
+			"fallback",
+			"grunt.js",
+			"grunticon-lib",
+			"grunticon:",
+			"grunticon:{",
+			"grunticon:",
+			"grunticon: {",
+			"grunt",
+			"data-grunticon-embed",
+			"icon-email-blue",
+			"icon-generic-file-blue",
+			"load",
+			"selectAll",
+			"manageSelectAll",
+			"icon-email-blue",
+			".change",
+			"css/styles",
+			"checked",
+			"icon",
+			"<a href=\"list.html\" aria-label=\"Close rename and sort accounts\" class=\"back-link icon icon-left-chevron icon-size-med\">Services</a>",
+			"stg",
+			"getBrand",
+			"function getBrand",
+			"@brand",
+			"setBrand",
+			"@brand",
+			"createTile",
+			"tile",
+			"tile-holder",
+			"icon-cross-red",
+			"close",
+			"list-top",
+			"hint",
+			"datumTokenizer",
+			"datumTokenizer =",
+			"function datumTokenizer",
+			"datumTokenizer",
+			"searchHolder",
+			"account-alert",
+			"logo-stg-phone",
+			"-stg-phone",
+			"-stg",
+			"88px",
+			"logo-stg",
+			"stg-phone",
+			"resize",
+			"container",
+			"obj.",
+			"paymentButtonPos",
+			"paymentButtonPos.left ",
+			"resize",
+			"margin-bottom-60",
+			"resize",
+			"getJSONData",
+			"console.log\n",
+			"window\n",
+			"height\n",
+			"Window\n",
+			"Window height\n",
+			"window height\n",
+			");\n",
+			"btnPaymentsFixed",
+			"closeIcon",
+			"data-grunticon-embed",
+			"data-grunticon-icon",
+			"grunticon",
+			"console.log",
+			"calc",
+			"resize",
+			"loaderHolder",
+			".load",
+			"load",
+			"layoutInvalidated",
+			"resize",
+			".tile",
+			"$list",
+			".tile",
+			"btnLogout",
+			"logout",
+			".tile",
+			"font-size: 14px",
+			"account-balance",
+			"avaia",
+			"unix",
+			"underscore",
+			"amount",
+			"console",
+			"hasOwnP",
+			"transactionList",
+			"data-id",
+			"load",
+			"getParameterByName",
+			"queryString",
+			"container",
+			"scaleEffect",
+			"addCloseIconToTile",
+			"animateTileIn",
+			"animateTile",
+			"icon-cross",
+			"list-holder",
+			"document.createElement(",
+			"close",
+			"shadow2",
+			"rebuildMatrixString",
+			"gutter",
+			"box-shadow",
+			"height",
+			"$list",
+			"list-holder",
+			"listHolder",
+			"lastX",
+			"changePosition",
+			"account-name-input",
+			"getAccountData()",
+			"you will still",
+			"loaderTile",
+			"loader-tile",
+			"loader",
+			"allEstatements",
+			"manageSelectAll",
+			"toggleMode",
+			"populateBoard",
+			"manageSelectAll()",
+			"toggleMode",
+			"\">\n",
+			"min-height:",
+			"min-height: 90"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"icon-email-grey",
+			"icon-generic-file-grey",
+			"<a href=\"list.html\" aria-label=\"Close rename and sort accounts\" class=\"back-link\"><span class=\"icon icon-left-chevron icon-size-med\" data-grunticon-embed></span>Services</a>",
+			"addCloseIconToSheet",
+			"animateTileToSheet",
+			"animateTileIn",
+			"standardEstatementCount",
+			"id",
+			"$dateField",
+			"date",
+			"nope.html",
+			"changedJointAccount",
+			"searchResults",
+			"",
+			": 1",
+			"",
+			"accountData",
+			"changeRegister",
+			"<span class=\"icon icon-size-sm icon-red-right-chevron\"></span>",
+			"User",
+			"user",
+			"users",
+			"2196F3",
+			"Board",
+			"board",
+			"projectBoardRef",
+			"'projects'",
+			"hideProgress",
+			"orgKey",
+			"board",
+			"boards",
+			"Board",
+			"board",
+			"archive",
+			"key",
+			"/",
+			"add-project-button",
+			"paper-input",
+			"project",
+			"projects",
+			"",
+			"postings"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 7480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6587,
+								6587
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1319.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "less/app.less",
+					"settings":
+					{
+						"buffer_size": 1770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true
+}
