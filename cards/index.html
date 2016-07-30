@@ -9,7 +9,8 @@
     <title>Single Page Application</title>
     <script src="/js/page.js"></script>
     <script src="/js/webcomponents.js"></script>
-    <link rel="import" href="/components/sidebar.html" />
+    <link rel="import" href="/components/side-bar/side-bar.html" />
+    <link rel="import" href="/components/header-bar/header-bar.html" />
     <!-- <base href="/cards/"> -->
 
     <!-- Bootstrap -->
@@ -38,16 +39,8 @@
       <side-bar></side-bar>
       
       <div id="homeBody" class="body-container">
-          <header>
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-12">
-                  <a href="#!/sidebar" class="side-menu icon icon-size-sm icon-hamburger-menu-white">Menu</a>
-                  <h1>Home</h1>
-                </div>
-              </div>
-            </div>      
-          </header>
+          
+          <header-bar title="Cards"></header-bar>
 
           <div class="content-container container">
             <div id="listHolder" class="row plain-list">
